@@ -17,3 +17,14 @@ test('Parse SQL Query', () => {
         table: 'sample'
     });
 });
+
+
+// test('Parse SQL Query', () => {
+//     const query = "SELECT * FROM sample WHERE id = '1'";
+//     const parsed = parseQuery(query);
+//     // expect(parsed).toEqual({
+//     //     fields: ['*'],
+//     //     table: 'sample',
+//     //     condition: "id = '1'"
+//     // });
+// });
